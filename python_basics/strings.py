@@ -87,4 +87,5 @@ print(s.split(" ")) #["Hi", "heLLO", "How", "ARe", "you"]
 print(s.split("H")) #["", "i ", "eLLO ", "ow ARe you"]
 print(s.split("o")) #["Hi heLLO H", "w ARe y", "u"]
 print(s.replace("h", "k")) #Hi keLLO How ARe you
-print(s.replace("H", "k", 2))
+print(s.replace("H", "k", 2)) #ki heLLO kow ARe you
+print(len(s))
